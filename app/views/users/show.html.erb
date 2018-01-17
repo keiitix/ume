@@ -1,0 +1,14 @@
+<%= render 'partial/navbar' %>
+
+
+	<div class="row">
+		<div class="col-lg-3 col-md-4">
+
+
+		<div class="col-lg-9 col-md-8 col-sm-12">
+			<h1>ようこそ <%= @user.email %> !</h1>
+
+
+    </div>
+    <%= link_to "アカウント情報を変更する", edit_user_registration_path %>
+	</div>
